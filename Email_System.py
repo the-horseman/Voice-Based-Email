@@ -120,7 +120,9 @@ if 'gmail' in s:
     context = ssl.create_default_context()
     
     print("Your gmail will be opened in the end...")
+    speak_phrase("Your gmail will be opened in the end...")
     print('Do You want to write a new Mail ?')
+    speak_phrase('Do You want to write a new Mail ?')
     s1 = recognise_audio()
     speak_phrase(s1)
     if 'yes' in s1:
