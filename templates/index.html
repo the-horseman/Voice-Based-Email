@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>Send Email via Audio</head>
+
+<body>
+    <p id="instruct">Instructions Will Appear Here</p>
+    <div id="controls">
+        <button id="recordButton">Record</button>
+        <button id="pauseButton" disabled>Pause</button>
+        <button id="stopButton" disabled>Stop</button>
+        <button id="upload">Finalise</button>
+        <button id="loginMail">Login Mail</button>
+        <button id="loginPassword">Login Password</button>
+        <button id="recieverMail">Reciever's Mail</button>
+        <button id="emailText">Email Text</button>
+        <button id="sendMail">Send Mail</button>
+        <audio id="audio" controls><audio>
+    </div>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="{{url_for('static', filename='myapp.js')}}"></script>
+</body>
+
+</html>
