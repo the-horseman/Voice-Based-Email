@@ -1,0 +1,139 @@
+#main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+#mail-flex {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    column-gap: 8vw;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.mail-inp {
+    height: 8vh;
+    background-color: #FFF6F6;
+    border: none;
+    min-width: 200px;
+    border-bottom: 5px solid #C6C6C6;
+    border-left: 4px solid #FF8484;
+    border-right: 4px solid #FF8484;
+    font-size: 150%;
+    color: #353535;
+    padding-left: 10px;
+}
+
+
+#lgn-mail {
+    border-top: 4px solid #FF8484;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#mail-body {
+    min-width: 200px;
+    height: 200px;
+    background-color: #FFF6F6;
+    border: none;
+    border-bottom: 4px solid #FF8484;
+    border-left: 4px solid #FF8484;
+    border-right: 4px solid #FF8484;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #353535;
+    font-size: 150%;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+#select-butts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.sel-butts {
+    width: 17vw;
+    height: 6vh;
+    min-width: fit-content;
+    border-radius: 20px;
+    background-color: #d4ffd1;
+    border: 2px solid #004100;
+    font-size: 120%;
+    transition: all 0.2s ease-in;
+}
+
+.sel-butts:hover {
+    background-color: #004100;
+    color: #d4ffd1;
+    box-shadow: 0px 5px 10px #00410092;
+}
+
+.sel-butts:active {
+    box-shadow: 0px 2px 7px #00410092;
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+}
+
+#audio-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.audio-butts {
+    display: none;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: #fcffd1;
+    border: 2px solid #ffd900;
+    font-size: 120%;
+    transition: all 0.2s ease-in;
+    min-width: fit-content;
+}
+
+.audio-butts:hover {
+    background-color: #ffd900;
+    box-shadow: 0px 5px 10px #826e00;
+}
+
+.audio-butts:active {
+    box-shadow: 0px 3px 7px #826e00;
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+}
+
+#sendMail {
+    font-size: 150%;
+    min-width: fit-content;
+    width: 19vw;
+    height: 9vh;
+    border-radius: 15px;
+    background-color: #EDFAFF;
+    border: 2.5px solid #00A8FF;
+    transition: all 0.2s ease-in;
+}
+
+#sendMail:hover {
+    background-color: #00A8FF;
+    color: #EDFAFF;
+    box-shadow: 0px 5px 10px #006192;
+}
+
+#sendMail:active {
+    box-shadow: 0px 3px 7px #006192;
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+}
+
